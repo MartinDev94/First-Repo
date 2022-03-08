@@ -1,0 +1,7 @@
+D:\C#\sevagrutyun\Xndir\Xndir1\bin\Debug\Xndir1.exe.config
+D:\C#\sevagrutyun\Xndir\Xndir1\bin\Debug\Xndir1.exe
+D:\C#\sevagrutyun\Xndir\Xndir1\bin\Debug\Xndir1.pdb
+D:\C#\sevagrutyun\Xndir\Xndir1\obj\Debug\Xndir1.csproj.AssemblyReference.cache
+D:\C#\sevagrutyun\Xndir\Xndir1\obj\Debug\Xndir1.csproj.CoreCompileInputs.cache
+D:\C#\sevagrutyun\Xndir\Xndir1\obj\Debug\Xndir1.exe
+D:\C#\sevagrutyun\Xndir\Xndir1\obj\Debug\Xndir1.pdb
