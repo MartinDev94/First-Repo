@@ -19,11 +19,8 @@ namespace Xndir1
             }
             return true;
         }
-
-        static void Main(string[] args)
+        public static int[] GetAllMax(int[,] nums)
         {
-            Console.WriteLine(IsPalindrom("barbados"));
-            int[,] nums = { { 1, 2, 6, 5 }, { 8, 7, 12, 13 }, { 9, 12, 10, 11 }, { 14, 3, 15, 4 }, { 20, 60, 40, 33 } };
             int columns = nums.GetUpperBound(0) + 1;
             int columLeng = nums.Length / columns;
             int[] result = new int[columns];
@@ -39,7 +36,15 @@ namespace Xndir1
                 }
                 result[i] = max;
             }
-            foreach (var item in result)
+            return result;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(IsPalindrom("barbados"));
+            int[,] nums = { { 1, 2, 6, 5 }, { 8, 7, 12, 13 }, { 9, 12, 10, 11 }, { 14, 3, 15, 4 }, { 20, 60, 40, 33 } };
+            int[] res = GetAllMax(nums);
+            foreach (var item in res)
             {
                 Console.WriteLine(item);
             }
